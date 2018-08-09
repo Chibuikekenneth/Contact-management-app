@@ -1,0 +1,186 @@
+/* Input part */
+body {
+  background-image: url("Dinpattern Stripe.gif");
+}
+
+#wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  background-color: wheat;
+  padding-top: 30px;
+  box-shadow: 0px 0px 30px #f15b40;
+  border-radius: 8px;
+  background-image: url('')
+}
+
+.form {
+  display: inline-block;
+}
+
+.form .button {
+  display: inline-block;
+  height: 25px;
+  margin-top: 2px;
+  margin-left: 15px;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(39, 158, 75);
+  color: white;
+  border: none;
+  transition: all 0.05s ease-in;
+  -webkit-transition: all 0.05s ease-in;
+}
+
+.button[disabled]:hover {
+  background-color: grey;
+}
+
+.form input {
+  font-family: "Arial Narrow";
+  color: #003768;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-right: 5px;
+  margin-right: 20px;
+}
+
+form label {
+  font-family: "Arial Narrow";
+}
+
+.form input:focus {
+  border-color: #f15b40;
+  box-shadow: 0px 0px 10px #f15b40;
+}
+
+.form label {
+  color: white;
+}
+
+form, .form .button {
+  float: left;
+}
+
+#in-data {
+  width: 100%;
+  background-color: #00304e;
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 0.005em;
+  padding-right: 0;
+  width: 1150px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  color: #0dca5c;
+}
+
+h1:hover {
+  cursor: pointer;
+  color: #0C63AC;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+}
+
+img {
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+h1, img {
+  float:left;
+}
+
+/* Contact part */
+#contacts-container {
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.oneContact {
+  border-radius: 5px;
+  background-color: #00304e;
+  width: 275px;
+  margin-left: -6px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.oneContact:hover {
+  background-color: #4682b4;
+  cursor: pointer;
+}
+
+.oneContact:visited, .oneContact:active {
+  box-shadow: 0px 0px 10px #e60033;
+}
+
+.contactList {
+  margin-left: -10px;
+}
+
+.contactList li {
+  list-style: none;
+  display: block;
+  font-family: "Arial Narrow";
+  color: #003768;
+  padding-top: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: white;
+}
+
+.contactList li:hover {
+  overflow: visible;
+  color: #bcd4e6;
+}
+
+.ops-buttons .button {
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.ops-buttons .button:first-child {
+  margin-left: 15px;
+}
+
+#contacts-container {
+  position: relative;
+}
+
+.error {
+  width: 200px;
+  height: 80px;
+  color: #D8000C;
+  background-color: #FFBABA;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-image: url('error.png');
+  border-radius: 5px;
+  position: absolute;
+  left: 40%;
+  top: 100px;
+  width:30%;
+  height:100px;
+  text-align:center;
+  z-index: 1000;
+  padding: 10px;
+  border: 1px solid;
+}
+
+#dismiss-button {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 20px;
+  border: none;
+}
+
