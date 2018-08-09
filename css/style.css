@@ -1,9 +1,13 @@
 /* below line is used for online google font */
-/* @import url(http://fonts.googleapis.com/css?family=Raleway); */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
  
-/* body{
-    background-image: url('/Javascript_login/at.jpg');
-} */
+body{
+    background-image: url('/atlas-close-up-dark-592753.jpg');
+}
+
+.blue{
+    background-color: whitesmoke;
+}
 
 h2{
  background-color: #FEFFED;
